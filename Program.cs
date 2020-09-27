@@ -47,9 +47,15 @@ namespace EmployeProblem
                         break;
                 }
             }
+            int MonthlyWage;
+            Console.WriteLine("Maximum no of working hours to be considered is 100");
             Console.WriteLine("No of working hours of employee in a month are {0}", total_Emp_hrs);
-            int monthly_Wage = total_Emp_hrs * 20;
-            Console.WriteLine("Montly wage of employee is {0}", monthly_Wage);
+            if (total_Emp_hrs <= 100)
+                MonthlyWage = total_Emp_Work_Hours * 20;
+            else
+                MonthlyWage = 100 * 20;
+
+            Console.WriteLine("Montly wage of employee is {0}", MonthlyWage);
         }
     }
 

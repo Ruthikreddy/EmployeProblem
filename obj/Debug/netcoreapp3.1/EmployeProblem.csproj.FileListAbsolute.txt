@@ -1,0 +1,13 @@
+C:\Users\HP\source\repos\EmployeProblem\bin\Debug\netcoreapp3.1\EmployeProblem.exe
+C:\Users\HP\source\repos\EmployeProblem\bin\Debug\netcoreapp3.1\EmployeProblem.deps.json
+C:\Users\HP\source\repos\EmployeProblem\bin\Debug\netcoreapp3.1\EmployeProblem.runtimeconfig.json
+C:\Users\HP\source\repos\EmployeProblem\bin\Debug\netcoreapp3.1\EmployeProblem.runtimeconfig.dev.json
+C:\Users\HP\source\repos\EmployeProblem\bin\Debug\netcoreapp3.1\EmployeProblem.dll
+C:\Users\HP\source\repos\EmployeProblem\bin\Debug\netcoreapp3.1\EmployeProblem.pdb
+C:\Users\HP\source\repos\EmployeProblem\obj\Debug\netcoreapp3.1\EmployeProblem.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\EmployeProblem\obj\Debug\netcoreapp3.1\EmployeProblem.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\EmployeProblem\obj\Debug\netcoreapp3.1\EmployeProblem.AssemblyInfo.cs
+C:\Users\HP\source\repos\EmployeProblem\obj\Debug\netcoreapp3.1\EmployeProblem.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\EmployeProblem\obj\Debug\netcoreapp3.1\EmployeProblem.dll
+C:\Users\HP\source\repos\EmployeProblem\obj\Debug\netcoreapp3.1\EmployeProblem.pdb
+C:\Users\HP\source\repos\EmployeProblem\obj\Debug\netcoreapp3.1\EmployeProblem.genruntimeconfig.cache

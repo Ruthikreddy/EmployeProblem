@@ -4,19 +4,20 @@ namespace EmployeProblem
 {
     class Program
     {
-        const int IS_ABSENT = 0;
-        const int IS_PART_TIME = 1;
-        const int IS_FULL_TIME = 2;
-        const int EMP_RATE_PER_HOUR = 20;
-        const int NUM_OF_WORKING_DAYS = 20;
-        const int MAX_WORKING_HOURS = 100;
-
+        
         static void Main(string[] args)
         {
             EmpWage();
         }
         static void EmpWage()
         {
+            const int IS_ABSENT = 0;
+            const int IS_PART_TIME = 1;
+            const int IS_FULL_TIME = 2;
+            const int EMP_RATE_PER_HOUR = 20;
+            const int NUM_OF_WORKING_DAYS = 20;
+            const int MAX_WORKING_HOURS = 100;
+
             Random randomnumber = new Random();
             int empHours = 0, totalWorkingHours = 0;
 

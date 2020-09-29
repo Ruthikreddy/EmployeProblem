@@ -7,17 +7,15 @@ namespace EmployeProblem
         
         static void Main(string[] args)
         {
-            EmpWage();
+            EmpWage("Capgemini",8,20,100);
+            EmpWage("Visualstudio", 5, 30, 120);
         }
-        static void EmpWage()
+        static void EmpWage(string Companyname,int EMP_RATE_PER_HOUR,int NUM_OF_WORKING_DAYS,int MAX_WORKING_HOURS)
         {
             const int IS_ABSENT = 0;
             const int IS_PART_TIME = 1;
             const int IS_FULL_TIME = 2;
-            const int EMP_RATE_PER_HOUR = 20;
-            const int NUM_OF_WORKING_DAYS = 20;
-            const int MAX_WORKING_HOURS = 100;
-
+       
             Random randomnumber = new Random();
             int empHours = 0, totalWorkingHours = 0;
 
@@ -45,7 +43,7 @@ namespace EmployeProblem
             }
             Console.WriteLine("Total Employee Hours " + totalWorkingHours);
             int totalEmpWage = totalWorkingHours * EMP_RATE_PER_HOUR;
-            Console.WriteLine("Total Employee Wage: " + totalEmpWage);
+            Console.WriteLine("Total Employee Wage for "+ Companyname +":"+ totalEmpWage);
         }
 
     }
